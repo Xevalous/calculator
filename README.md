@@ -1,8 +1,12 @@
 # Calculator
+
 yea. just a calculator.
 
+https://vexg.github.io/Calculator/
+
 Using:
-* HTML
-* CSS
-* JS
-* Tail wind
+
+-   HTML
+-   CSS
+-   JS
+-   Tail wind
