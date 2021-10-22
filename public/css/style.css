@@ -22785,7 +22785,7 @@ video {
 }
 
 .font-poppins {
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
 }
 
 .text-xs {
@@ -33018,6 +33018,8 @@ input[type='number']::-webkit-outer-spin-button,
 }
 
 .hover {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -55152,7 +55154,7 @@ input[type='number']::-webkit-outer-spin-button,
   }
 
   .sm\:font-poppins {
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
   }
 
   .sm\:text-xs {
@@ -87119,7 +87121,7 @@ input[type='number']::-webkit-outer-spin-button,
   }
 
   .md\:font-poppins {
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
   }
 
   .md\:text-xs {
@@ -119086,7 +119088,7 @@ input[type='number']::-webkit-outer-spin-button,
   }
 
   .lg\:font-poppins {
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
   }
 
   .lg\:text-xs {
@@ -151053,7 +151055,7 @@ input[type='number']::-webkit-outer-spin-button,
   }
 
   .xl\:font-poppins {
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
   }
 
   .xl\:text-xs {
@@ -183020,7 +183022,7 @@ input[type='number']::-webkit-outer-spin-button,
   }
 
   .\32xl\:font-poppins {
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
   }
 
   .\32xl\:text-xs {
