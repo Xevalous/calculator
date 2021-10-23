@@ -9,4 +9,4 @@ Using:
 -   HTML
 -   CSS
 -   JS
--   Tail wind
+-   TailWind CSS
