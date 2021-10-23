@@ -25,7 +25,7 @@ module.exports = {
                 c4: '#f6f6f6',
             },
             height: {
-                c81: '81vh',
+                c80: '80vh',
             },
             transitionDelay: {
                 c25: '25ms',
