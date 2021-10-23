@@ -12,7 +12,8 @@ function evaluate_() {
     let input = get_output.value.replace(/÷/g, '/').replace(/×/g, '*').replace(/%/g, '/100');
     try {
         let eval_ = eval(input);
-        if (eval_) get_output.value = eval_;
+        if (!eval_) return (get_output.value = '0');
+        get_output.value = eval_;
     } catch {
         get_output.value = 'ERR';
     }
