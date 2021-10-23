@@ -5,6 +5,18 @@ module.exports = {
         fontFamily: {
             poppins: '"Poppins", sans-serif',
         },
+        screens: {
+            '2xl-max': { max: '1535px' },
+            '2xl-min': { min: '1535px' },
+            'xl-max': { max: '1279px' },
+            'xl-min': { min: '1279px' },
+            'lg-max': { max: '1023px' },
+            'lg-min': { min: '1023px' },
+            'md-max': { max: '767px' },
+            'md-min': { min: '767px' },
+            'sm-max': { max: '639px' },
+            'sm-min': { min: '639px' },
+        },
         extend: {
             colors: {
                 c1: '#212121',
