@@ -2,7 +2,7 @@
 
 yea. just a calculator.
 
-https://vexg.github.io/calculator/
+https://calcu.vexgapi.tech
 
 Using:
 
