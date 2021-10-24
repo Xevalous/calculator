@@ -5,7 +5,7 @@ function clear_() {
 }
 
 function display(num = String) {
-    if (get_output.value.includes('ERR')) get_output.value -= 'ERR';
+    if (get_output.value.includes('ERR')) get_output.value.replace('ERR', '');
     get_output.value += num;
 }
 
