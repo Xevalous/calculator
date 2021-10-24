@@ -1,10 +1,10 @@
 {
-  "name": "VEXG-calculator",
+  "name": "calulator",
   "version": "1.0.0",
   "description": "This is just a calculator",
   "main": "index.js",
   "scripts": {
-    "build:tailwinds": "tailwind build -i src/css/style.css -o public/css/style.css"
+    "build:tailwind": "tailwind build -i src/css/tailwind.style.css -o public/css/style.css"
   },
   "keywords": [],
   "author": "VEXG",
