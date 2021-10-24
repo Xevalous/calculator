@@ -5,11 +5,12 @@ function clear_() {
 }
 
 function display(num = String) {
-    if (get_output.value.includes('ERR')) get_output.value.replace('ERR', '');
+    if (get_output.value == 'ERR') get_output.value = '';
     get_output.value += num;
 }
 
 function evaluate_() {
+    if (get_output.value == 'ERR') get_output.value = '0';
     let input = get_output.value.replace(/÷/g, '/').replace(/×/g, '*').replace(/%/g, '/100');
     try {
         let eval_ = eval(input);
