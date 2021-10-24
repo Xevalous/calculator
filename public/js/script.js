@@ -5,6 +5,7 @@ function clear_() {
 }
 
 function display(num = String) {
+    get_output.value.replace(/ERR/gi, '');
     get_output.value += num;
 }
 
