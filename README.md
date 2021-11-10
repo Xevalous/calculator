@@ -7,6 +7,5 @@ https://calcu.vexgapi.tech
 Using:
 
 -   HTML
--   CSS
--   JS
 -   TailWind CSS
+-   JavaScript
