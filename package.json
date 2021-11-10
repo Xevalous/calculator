@@ -1,15 +1,15 @@
 {
-  "name": "calulator",
-  "version": "1.0.0",
-  "description": "This is just a calculator",
-  "main": "index.js",
-  "scripts": {
-    "build:tailwind": "tailwind build -i src/css/tailwind.style.css -o public/css/style.css"
-  },
-  "keywords": [],
-  "author": "VEXG",
-  "license": "MIT",
-  "dependencies": {
-    "tailwindcss": "^2.2.17"
-  }
+    "name": "calulator",
+    "version": "1.0.0",
+    "description": "This is just a calculator",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -o ./public/css/min.style.css --minify"
+    },
+    "keywords": [],
+    "author": "VEXG",
+    "license": "MIT",
+    "dependencies": {
+        "tailwindcss": "^2.2.17"
+    }
 }
