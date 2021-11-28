@@ -1,6 +1,6 @@
 # Calculator
 
-yea. just a calculator.
+Yea. This is just a calculator.
 
 https://calcu.vexgapi.tech
 
