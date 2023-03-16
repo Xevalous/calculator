@@ -1,5 +1,3 @@
-https://calcu.vexgapi.tech
-
 Using:
 
 -   HTML
